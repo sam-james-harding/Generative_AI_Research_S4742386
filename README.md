@@ -9,3 +9,6 @@ In this scenario, the types of data most likely to require special access contro
 
 3. Why is it important to have a good naming convention?
 It is important to have a good naming convention as it allows you to organise your files in a systematic manner, and makes locating and organising files simpler. For example, if the naming convention was <DOCUMENT_TYPE>_<DOCUMENT_TOPIC>_<AUTHOR_NAME>_<DATE> then simply by looking at the filename, you can identify what kind of document it is, when it was created and by who. If this convention is used consistently, it also makes searching for files by a particular trait (e.g. type of document) much easier.
+
+4. Under what scenarios would a new branch be useful?
+Some scenarios under which a new branch would be useful include development of a particular feature (which is contained within a branch before later being merged back into the main branch). Another example is making experimental changes, which you may not wish to commit to the main branch if they are unsuccessful and are thus "quarantined" to their own branch until they are validated.
